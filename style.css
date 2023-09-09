@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ccc;
+    font-family: "Poppins", Arial;
+}
+/* utility class */
+.container{
+    padding: 50px 100px;
+    background-color: rgba(255,255,255,.1);
+}
+.p-20{
+    padding: 20px 0;
+}
+
+
+.nav{
+    background-color: black;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    padding-top: 40px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-bar ul li a:hover{
+    color: #ffdd95;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img{
+    width: 100%;
+}
+.text-area img{
+    width: 30%;
+    padding: 10px;
+}
+.text-area{
+    display: inline-block;
+}
+.text-area input{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 50%;
+}
+.text-area button{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+
+/* main body */
+
+.main-body{
+    background-color: rgb(10, 10, 10);
+}
+.full-site{
+    display: block;
+    border-radius: 0;
+    padding: 15px 20px;
+    font-weight: 600;
+    border: none !important;
+    box-shadow: none !important;
+    margin-bottom: 50px;
+    background: #ffdd95;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+}
+.full-site a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.main-body > .container{
+    padding-top: 0;
+}
+
+
+
+.mwb-left{
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.mw-heading {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0 0 1em;
+    color: #fff;
+    line-height: 1.4em;
+}
+
+.mwb-left p {
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+.mwb-left h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.mwb-left ul {
+    padding-left: 15px;
+}
+
+
+#xfooter-about {
+    background: rgb(36,36,40);
+    padding: 0  30px;
+    margin-top: 80px;
+}
